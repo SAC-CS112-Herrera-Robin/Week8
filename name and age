@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Lab1 {
+
+	private static Scanner input;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		input = new Scanner(System.in);
+		
+		String name;
+		int year;
+		int age;
+		
+		System.out.println("Please enter your first name");
+		name = input.nextLine() ;
+		
+		System.out.println("Please enter year born");
+		year= input.nextInt();
+		
+		age = (2015-year);
+		
+		System.out.printf("Hi %s, you are %d years old today\n", name,age);
+	}
+	
+
+}
